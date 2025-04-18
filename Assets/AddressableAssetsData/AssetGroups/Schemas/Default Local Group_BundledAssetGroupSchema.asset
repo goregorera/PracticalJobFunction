@@ -36,7 +36,7 @@ MonoBehaviour:
   m_BuildPath:
     m_Id: 80ae3f1ebb77d9c4e90c505e86a67f58
   m_LoadPath:
-    m_Id: https://goregorera.github.io/PracticalJobFunction/Android
+    m_Id: fce043be29e375d49a52bec73e37e2f4
   m_BundleMode: 0
   m_AssetBundleProviderType:
     m_AssemblyName: Unity.ResourceManager, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null

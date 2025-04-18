@@ -15,7 +15,7 @@ MonoBehaviour:
   m_DefaultGroup: 5fcde35da3e64eb4da7cfb449706c26f
   m_currentHash:
     serializedVersion: 2
-    Hash: d1b0072147f4d45f015d92be6b32a7d8
+    Hash: 00000000000000000000000000000000
   m_OptimizeCatalogSize: 0
   m_BuildRemoteCatalog: 0
   m_BundleLocalCatalog: 0
@@ -66,7 +66,7 @@ MonoBehaviour:
       - m_Id: eaf3eb08fd1b0784ea94fc7928909708
         m_Value: '{UnityEngine.AddressableAssets.Addressables.RuntimePath}/[BuildTarget]'
       - m_Id: fce043be29e375d49a52bec73e37e2f4
-        m_Value: http://[PrivateIpAddress]:[HostingServicePort]
+        m_Value: https://goregorera.github.io/PracticalJobFunction/Android
     m_ProfileEntryNames:
     - m_Id: 4588a2d882c8afb44879619e671d71fe
       m_Name: BuildTarget

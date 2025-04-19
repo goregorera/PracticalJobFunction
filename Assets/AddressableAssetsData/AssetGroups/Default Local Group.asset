@@ -17,6 +17,16 @@ MonoBehaviour:
     m_SerializedData: []
   m_GUID: 5fcde35da3e64eb4da7cfb449706c26f
   m_SerializeEntries:
+  - m_GUID: 1038bdb713b744fc69b677128baeabd1
+    m_Address: Assets/App/Scenes/Car.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 188d18e039136d24fbdc52520a160b8d
+    m_Address: Assets/ARCADE - FREE Racing Car/Road.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 3c69e286fcc20ce4fb9e264daa1073ed
     m_Address: Assets/App/RedMat 1.mat
     m_ReadOnly: 0
@@ -34,6 +44,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 99c9720ab356a0642a771bea13969a05
     m_Address: SampleScene
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ae0ec82c134d4485cb8dcf2b50c819b7
+    m_Address: Assets/App/Scenes/Plane.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0

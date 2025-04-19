@@ -13,15 +13,26 @@ public class LocalSceneLoader : MonoBehaviour
         Addressables.LoadSceneAsync(sceneAddress, LoadSceneMode.Single).Completed += OnSceneLoaded;
     }
 
-    private void OnSceneLoaded(AsyncOperationHandle<SceneInstance> handle)
+    // private void OnSceneLoaded(AsyncOperationHandle<SceneInstance> handle)
+    // {
+    //     if (handle.Status == AsyncOperationStatus.Succeeded)
+    //     {
+    //         Debug.Log("ローカルシーンのロード成功！");
+    //     }
+    //     else
+    //     {
+    //         Debug.LogError("シーンのロード失敗！");
+    //     }
+    // }
+    void OnSceneLoaded(AsyncOperationHandle<UnityEngine.ResourceManagement.ResourceProviders.SceneInstance> handle)
     {
         if (handle.Status == AsyncOperationStatus.Succeeded)
         {
-            Debug.Log("ローカルシーンのロード成功！");
+            Debug.Log($" Scene loaded successfully: {handle.Result.Scene.name}");
         }
         else
         {
-            Debug.LogError("シーンのロード失敗！");
+            Debug.LogError($" Failed to load scene: {handle.OperationException?.Message}");
         }
     }
 

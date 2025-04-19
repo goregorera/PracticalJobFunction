@@ -37,6 +37,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 498164da95dc542c885f87f5aad8e0e6
+    m_Address: Assets/App/Scenes/Cube.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 4a39cb142e5ec47cdb9c49547bacddf2
     m_Address: Assets/App/RedMat 3.mat
     m_ReadOnly: 0
